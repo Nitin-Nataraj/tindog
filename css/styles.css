@@ -1,0 +1,200 @@
+/* All element styles*/
+
+body{
+    font-family: 'Montserrat' !important;
+    font-weight: 400 !important;
+}
+
+
+p{
+    color: #8f8f8f;
+    font-weight: 500 !important;
+}
+
+
+/* Title Section */
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% 12% !important;
+}
+
+/* Headings */
+
+.big-heading{
+    font-size: 3.5rem !important;
+    font-weight: 900 !important;
+    line-height: 1.5;
+}
+
+.medium-heading{
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+    line-height: 1.5;
+}
+
+.small-heading{
+    font-size: 1.5rem;
+    font-weight: 600 !important;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem !important;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+}
+
+.navbar-item{
+    padding: 0% 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400 !important;
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img{
+    width: 28%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+    padding-left: 5%;
+}
+
+/* Features */
+
+#features{
+    background-color: white;
+    text-align: center;
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-column{
+    padding: 5%;
+}
+
+.feature-logo{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.feature-logo:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px !important;
+}
+
+.carousel-item{
+    padding: 7% 15% 5% 15%;
+}
+
+
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call to Action*/
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10% 15% 5% 15%;
+    color: white;
+}
+
+/* Footer Section*/
+
+#footer{
+    text-align: center;
+    background-color: white;
+    padding: 8%;
+}
+
+.social-media-bar{
+    padding-bottom: 1.5%;
+}
+
+.bar-element{
+    margin-right: 2%;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 990px) and (max-width: 1300px){
+    .title-img{
+        position: static;
+        width: 70%;
+        transform: rotate(0deg);
+        padding-left: 10%;
+    }
+}
+
+@media (max-width: 990px){
+    .title-img{
+        position: static;
+        width: 60%;
+        padding-left: 0%;
+        margin-left: 0;
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+}
